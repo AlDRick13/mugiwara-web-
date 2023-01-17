@@ -13,6 +13,33 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
+    colors: {
+      'dark-blue': '#10024A',
+      'blue': '#2F06D2',
+      'white': '#FFFFFF',
+      'grey': 'B9B9B9',
+      'black': '#000000',
+      'yellow': '#EFE168',
+      'pink': '#E98EAD',
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+      poppins: ['Poppins', 'sans-serif'],
+    },
+    extend: {
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+        '32': '2rem',
+        '16': '1rem',
+        '80': '5rem'
+      },
+      borderRadius: {
+        '4xl': '2rem',
+        'circle': '100%'
+      }
+    }
   },
   plugins: [],
 };
