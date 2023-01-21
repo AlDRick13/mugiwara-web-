@@ -22,6 +22,9 @@ module.exports = {
       'yellow': '#EFE168',
       'pink': '#E98EAD',
     },
+    backgroundImage: {
+      'footer': "url('https://www.modaes.es/files/2020/empresas/ecoalf/ecoalf-tienda-fuera-because-there-is-no-planet-B-948.jpg')",
+    },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
@@ -38,6 +41,9 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem',
         'circle': '100%'
+      },
+      sizing: {
+        '120': '480px',
       }
     }
   },
