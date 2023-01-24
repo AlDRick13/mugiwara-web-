@@ -19,7 +19,11 @@ module.exports = {
     minWidth: {
       '16': '16px',
       '1/5':'20%',
-      '4/5':'80%',
+      '4/5': '80%',
+      '1/4': '25%',
+    },
+    minHeight: {
+      '40': '40px',
     },
     colors: {
       'dark-blue': '#10024A',
@@ -40,10 +44,12 @@ module.exports = {
       poppins: ['Poppins', 'sans-serif'],
     },
     fontSize: {
-      '20' : '3vmin',
+      '3vmin' : '3vmin',
+      '2.2vmin' : '2.2vmin',
+      '20' : '15px',
     },
     margin: {
-      '10' : '10px'
+      '10' : '10px',
     },
     extend: {
       spacing: {

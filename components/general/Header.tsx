@@ -22,7 +22,7 @@ const Header = () => {
         </defs>
         </svg>
 
-        <ul className="flex items-center justify-end gap-4 min-w-7/10 text-20 mr-10">
+        <ul className="flex items-center justify-end gap-6 min-w-7/10 text-3vmin mr-10">
           <li className="flex gap-1 items-center m-2">
             <svg 
             className="min-w-16" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
