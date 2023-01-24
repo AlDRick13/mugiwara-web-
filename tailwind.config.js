@@ -13,6 +13,19 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
+    width: {
+      'full' : '100%',
+      '11/12' : '92%',
+      '300': '300px',
+      '80%' : '80%',
+      '300%' : '400%',
+      '5/6' : '83.33%',
+      'content' : 'max-content',
+    },
+    margin: {
+      '20' : '20px 10px',
+      'auto' : 'auto'
+    },
     maxWidth: {
       '1/2':'50%',
     },
@@ -29,8 +42,10 @@ module.exports = {
     colors: {
       'dark-blue': '#10024A',
       'blue': '#1B4DB1',
+      'skyBlue': '#F8F7FA',
       'white': '#FFFFFF',
       'grey': '#B9B9B9',
+      'grey2' : '#6E6A6C',
       'black': '#000000',
       'yellow': '#EFE168',
       'pink': '#E98EAD',
@@ -46,11 +61,13 @@ module.exports = {
     },
     fontSize: {
       '3vmin' : '3vmin',
+      '2vmin' : '2vmin',
       '2.2vmin' : '2.2vmin',
-      '20' : '15px',
-    },
-    margin: {
       '10' : '10px',
+      '12' : '12px',
+      '15' : '15px',
+      '16' : '16px',
+      '20' : '20px',
     },
     extend: {
       spacing: {
@@ -58,7 +75,13 @@ module.exports = {
         '144': '36rem',
         '32': '2rem',
         '16': '1rem',
-        '80': '5rem'
+        '80': '5rem',
+      },
+      margin: {
+        '10' : '10px',
+        '30' : '30px',
+        '8y0' : '8px 0',
+        'searchBar' : '4px -93% 0 0',
       },
       borderRadius: {
         '4xl': '2rem',

@@ -4,8 +4,8 @@ const Header = () => {
   const [logged, setLogged] = useState(false)
   const [email, setEmail] = useState('correo@gmail.com')
   return (
-    <header className="sticky">
-      <div className="flex items-center justify-between gap-2 h-20  text-white bg-black mx-10">
+    <header>
+      <div className="flex items-center justify-between gap-2 h-20  text-white bg-black px-2">
         <svg 
         className="mx-5 min-w-1/10"
         width="62" height="30" viewBox="0 0 62 30" fill="none" xmlns="http://www.w3.org/2000/svg">
