@@ -1,14 +1,15 @@
 import { Inter } from '@next/font/google';
-import styles from '../styles/Home.module.css';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/general/Header';
+import Footer from '../components/general/Footer';
+import Home from './home';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
+export default function Index() {
   return (
     <>
       <Header />
+      <Home />
       <Footer />
     </>
   );

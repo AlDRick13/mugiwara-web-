@@ -1,11 +1,14 @@
 import React, { useState } from "react"
 
 const Header = () => {
-  const [logged, setLogged] = useState(true)
+  const [logged, setLogged] = useState(false)
   const [email, setEmail] = useState('correo@gmail.com')
   return (
-    <header className="flex items-center justify-between h-20 mx-5  text-white bg-black h-spacing-144 ">
-        <svg width="62" height="30" viewBox="0 0 62 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <header >
+      <div className="flex items-center justify-between gap-2 h-20  text-white bg-black mx-10">
+        <svg 
+        className="mx-5 min-w-1/10"
+        width="62" height="30" viewBox="0 0 62 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_81_6463)">
         <path d="M14.7714 2.44891C13.7184 1.58542 12.0451 1.17491 8.68396 0.382194C6.59229 -0.113252 5.78447 -0.113252 5.12091 0.311416C4.06786 0.97673 3.82263 2.71787 3.8082 3.60967C3.76493 5.80379 4.63044 23.3567 5.30843 25.5084C5.81332 27.1221 6.75097 27.4194 7.76074 27.0655C8.33775 26.8673 8.58298 26.202 8.74166 25.749C9.47735 23.6115 8.1935 22.3234 8.75608 19.6763C8.88591 19.0251 9.07344 18.6288 9.34752 18.289C10.1121 17.3406 11.3382 17.1849 11.7998 17.1C14.2377 16.6045 16.5313 13.5469 17.2237 10.8998C17.9739 8.01207 17.1516 4.4307 14.7714 2.44891ZM10.9776 12.7117C10.3861 13.278 9.20327 14.0565 8.59741 13.6743C8.16465 13.4054 7.68861 6.73806 8.26562 6.38417C9.13114 5.86041 11.9874 7.41753 12.2182 9.71074C12.3913 11.2962 11.2228 12.4711 10.9776 12.7117Z" fill="white"/>
         <path d="M32.4812 3.40872C30.5726 1.57847 27.0687 -0.0701993 24.5038 0.869802C19.8107 2.58679 19.087 12.5223 21.8277 19.3076C22.2556 20.3471 24.7019 26.4457 28.1466 26.2904C30.7915 26.1664 32.5221 22.4428 32.6074 22.221C32.6888 22.0222 34.0038 19.0553 32.8779 18.1587C32.1351 17.5622 30.9648 17.6497 30.3442 19.0567C29.6732 20.6205 28.2744 21.3543 27.6033 21.3364C26.4991 21.3169 25.6539 17.3039 25.5353 16.7175C24.9629 14.0957 24.7703 5.89547 26.1118 5.64782C27.1803 5.44892 29.9708 7.33232 30.525 8.91229C30.7883 9.64095 30.739 10.2229 31.3144 10.9566C31.4123 11.091 32.2657 12.1781 33.0808 12.0548C34.2157 11.8906 35.0208 9.38135 34.6956 7.29672C34.4056 5.28881 33.0601 3.97773 32.4812 3.40872Z" fill="white"/>
@@ -19,13 +22,14 @@ const Header = () => {
         </defs>
         </svg>
 
-        <ul className="flex">
+        <ul className="flex items-center justify-end gap-4 min-w-7/10 text-20 mr-10">
           <li className="flex gap-1 items-center m-2">
-            <svg className="m-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg 
+            className="min-w-16" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 9.14286H9.14286V16H6.85714V9.14286H0V6.85714H6.85714V0H9.14286V6.85714H16V9.14286Z" fill="#1B4DB1"/>
             </svg>
 
-            <span>Crear publicación</span>
+            <span className="text-blue">Crear publicación</span>
           </li>
           <li className="flex">
             {
@@ -64,6 +68,7 @@ const Header = () => {
             }
           </li>
         </ul>
+      </div>
     </header>
   )
 }
