@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <>
         <Main />
+        <section>
+          <h1></h1>
+        </section>
     </>
   )
 }
