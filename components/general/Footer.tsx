@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex items-center justify-center h-96 bg-black bg-footer bg-cover bg-center opacity-40 relative">
+    <footer className="flex items-center justify-center h-96 bg-footer bg-cover bg-center relative">
       <div className="w-5/6 max-w-xs relative">
         <input type="text" 
           placeholder="¿Qué quieres ver en tu ciudad?"
