@@ -18,6 +18,7 @@ module.exports = {
       '11/12' : '92%',
       '300': '300px',
       '80%' : '80%',
+      '98%' : '98%',
       '300%' : '400%',
       '5/6' : '83.33%',
       'content' : 'max-content',
@@ -68,6 +69,7 @@ module.exports = {
       '15' : '15px',
       '16' : '16px',
       '20' : '20px',
+      '30' : '30px',
     },
     extend: {
       spacing: {
@@ -80,6 +82,7 @@ module.exports = {
       margin: {
         '10' : '10px',
         '30' : '30px',
+        '50' : '50px',
         '8y0' : '8px 0',
         'searchBar' : '4px -93% 0 0',
       },
